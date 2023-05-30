@@ -1,6 +1,7 @@
 'use client';
 import Banner from '@/components/ui/Banner';
 import Possibilities from '@/components/ui/Possibilities';
+import Voice from '@/components/ui/Voice';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
@@ -14,6 +15,7 @@ export default function Home() {
     <>
       <Banner />
       <Possibilities />
+      <Voice />
     </>
   );
 }
