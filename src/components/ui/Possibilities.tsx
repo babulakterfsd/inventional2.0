@@ -5,8 +5,7 @@ const Possibilities = () => {
   return (
     <div className="container">
       <div className="grid grid-cols-12 bg-[#051220] py-24">
-        <div className="md:col-span-2"></div>
-        <div className="col-span-12 px-2 md:px-0 md:col-span-8">
+        <div className="col-span-12 px-2 md:px-0 md:col-start-3 md:col-span-8">
           <div className="content gradientBackground rounded-xl py-8 px-10 relative">
             <Image
               src={RingPhoto}
@@ -31,7 +30,6 @@ const Possibilities = () => {
             </div>
           </div>
         </div>
-        <div className="md:col-span-2"></div>
       </div>
     </div>
   );
