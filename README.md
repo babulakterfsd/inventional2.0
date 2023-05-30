@@ -1,3 +1,3 @@
-# Inventional - AI Landing Page
+# Inventional2.0 - AI Landing Page
 
-[Live Link](https://inventional.vercel.app)
+<!-- [Live Link](https://inventional.vercel.app) -->
