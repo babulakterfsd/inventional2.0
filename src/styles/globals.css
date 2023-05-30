@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Inter&family=Poppins&display=swap');
+
+@font-face {
+  font-family: 'adieuregular';
+  src: url('../../public/assets/fonts/adieu-font/adieu-regular-webfont.eot');
+  src: url('../../public/assets/fonts/adieu-font/adieu-regular-webfont.eot?#iefix')
+      format('embedded-opentype'),
+    url('../../public/assets/fonts/adieu-font/adieu-regular-webfont.woff2')
+      format('woff2'),
+    url('../../public/assets/fonts/adieu-font/adieu-regular-webfont.woff')
+      format('woff'),
+    url('../../public/assets/fonts/adieu-font/adieu-regular-webfont.ttf')
+      format('truetype'),
+    url('../../public/assets/fonts/adieu-font/adieu-regular-webfont.svg#adieuregular')
+      format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* responsive classes */
+.main-container {
+  @apply w-full mx-auto px-2;
+}
+@media (min-width: 576px) {
+  .main-container {
+    max-width: 540px !important;
+  }
+}
+@media (min-width: 768px) {
+  .main-container {
+    max-width: 720px !important;
+  }
+}
+@media (min-width: 992px) {
+  .main-container {
+    max-width: 970px !important;
+  }
+}
+@media (min-width: 1200px) {
+  .main-container {
+    max-width: 1170px !important;
+  }
+}
+@media (min-width: 1400px) {
+  .main-container {
+    max-width: 1320px !important;
+  }
+}
