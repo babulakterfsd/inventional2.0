@@ -22,7 +22,29 @@
   font-style: normal;
 }
 
-/* responsive classes */
+/* ----- gradient colors ----- */
+.gradientText {
+  background: linear-gradient(
+    to right,
+    rgba(105, 35, 255, 1) 1.58%,
+    rgba(210, 32, 255, 1) 45.58%,
+    rgba(254, 49, 111, 1) 98.69%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.gradientBackground {
+  background: linear-gradient(
+    93.04deg,
+    rgba(105, 35, 255, 1) 1.58%,
+    rgba(210, 32, 255, 1) 45.58%,
+    rgba(254, 49, 111, 1) 98.69%
+  );
+}
+
+/* responsive classes
 .main-container {
   @apply w-full mx-auto px-2;
 }
@@ -49,5 +71,35 @@
 @media (min-width: 1400px) {
   .main-container {
     max-width: 1320px !important;
+  }
+} */
+
+/* responsive classes */
+.container {
+  @apply w-full mx-auto px-2;
+}
+@media (min-width: 576px) {
+  .container {
+    max-width: 100% !important;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 100% !important;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    max-width:  100% !important;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width:  100% !important;
+  }
+}
+@media (min-width: 1400px) {
+  .container {
+    max-width: 100% !important;
   }
 }

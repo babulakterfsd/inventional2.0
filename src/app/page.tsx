@@ -1,4 +1,5 @@
 'use client';
+import Banner from '@/components/ui/Banner';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
@@ -10,9 +11,7 @@ export default function Home() {
 
   return (
     <>
-      <div>
-        <h1>Welcome to inventionalAI</h1>
-      </div>
+      <Banner />
     </>
   );
 }
