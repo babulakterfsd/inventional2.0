@@ -38,7 +38,7 @@ const Banner = () => {
                 <form className="relative">
                   <input
                     type="email"
-                    className="w-[430px] h-14 pl-10 text-sm border rounded-full bg-[#161a25] border-none focus:outline-none"
+                    className="md:w-[430px] h-14 pl-10 text-sm border rounded-full bg-[#161a25] border-none focus:outline-none"
                     placeholder="ex: youremail@gmail.com"
                     required
                   />

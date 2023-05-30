@@ -76,7 +76,7 @@
 
 /* responsive classes */
 .container {
-  @apply w-full mx-auto px-2;
+  @apply w-full mx-auto;
 }
 @media (min-width: 576px) {
   .container {
