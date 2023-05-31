@@ -7,7 +7,7 @@ const Banner = () => {
           <div className="col-span-12 md:col-span-6 mx-auto">
             {/* Banner text contents */}
             <div className="h-screen flex flex-col justify-center items-start">
-              <button className="cursor-auto bg-[#201d2a] text-center py-1.5 px-8 rounded-full">
+              <button className="cursor-auto bg-[#201d2a] text-center py-1.5 px-8 rounded-full lg:ml-16">
                 <span
                   className="gradientText"
                   style={{
@@ -18,7 +18,7 @@ const Banner = () => {
                 </span>
               </button>
               <h1
-                className="text-5xl font-[400] my-8"
+                className="text-5xl font-[400] my-8 lg:ml-16"
                 style={{ fontFamily: 'adieuregular' }}
               >
                 What is <span className="gradientText">Inventional</span>
@@ -29,7 +29,7 @@ const Banner = () => {
                   color: 'rgba(255, 255, 255, 0.7)',
                   letterSpacing: '-3%',
                 }}
-                className="font-semibold text-xl"
+                className="font-semibold text-xl lg:ml-16"
               >
                 The future is now. Are you ready?
               </p>
@@ -38,7 +38,7 @@ const Banner = () => {
                 <form className="relative">
                   <input
                     type="email"
-                    className="md:w-[430px] h-14 pl-10 text-sm border rounded-full bg-[#161a25] border-none focus:outline-none"
+                    className="md:w-[630px] h-14 pl-10 lg:ml-16 text-sm border rounded-full bg-[#161a25] border-none focus:outline-none"
                     placeholder="ex: youremail@gmail.com"
                     required
                   />
