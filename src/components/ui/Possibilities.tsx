@@ -4,15 +4,15 @@ import RingPhoto from '../../../public/assets/images/orbit.png';
 const Possibilities = () => {
   return (
     <div className="container">
-      <div className="grid grid-cols-12 bg-[#050e1c] pt-8 pb-8 mb-16">
+      <div className="grid grid-cols-12 bg-[#060606] pt-10 pb-6">
         <div className="col-span-12 px-2 md:px-0 md:col-start-3 md:col-span-8">
-          <div className="content gradientBackground rounded-xl py-8 px-10 relative top-16">
+          <div className="content gradientBackground rounded-xl py-8 px-10 relative top-8">
             <Image
               src={RingPhoto}
               alt="ring"
-              className="hidden md:block absolute -mt-20 ml-72"
+              className="hidden md:block absolute -mt-20 ml-80"
               height={500}
-              width={500}
+              width={480}
             />
             <div className="grid grid-cols-12">
               <div className="col-span-12 md:col-span-8">
