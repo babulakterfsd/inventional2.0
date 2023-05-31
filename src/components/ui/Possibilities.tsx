@@ -4,7 +4,7 @@ import RingPhoto from '../../../public/assets/images/orbit.png';
 const Possibilities = () => {
   return (
     <div className="container">
-      <div className="grid grid-cols-12 bg-[#060606] pt-10 pb-6">
+      <div className="grid grid-cols-12 bg-[#05101f] pt-10 pb-6">
         <div className="col-span-12 px-2 md:px-0 md:col-start-3 md:col-span-8">
           <div className="content gradientBackground rounded-xl py-8 px-10 relative top-8">
             <Image
