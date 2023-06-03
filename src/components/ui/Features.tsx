@@ -1,5 +1,13 @@
 import Image from 'next/image';
 import Img24 from '../../../public/assets/images/24.png';
+import calendar from '../../../public/assets/images/calendar.png';
+import message from '../../../public/assets/images/chat.png';
+import gift from '../../../public/assets/images/giftbox.png';
+import giftbox from '../../../public/assets/images/handbag.png';
+import peoplegrp from '../../../public/assets/images/peoplegrp.png';
+import prize from '../../../public/assets/images/prize.png';
+import voicepic from '../../../public/assets/images/voice.png';
+import wtsapp from '../../../public/assets/images/wtsapp.png';
 
 const Features = () => {
   return (
@@ -12,213 +20,114 @@ const Features = () => {
           Features of our <span className="gradientText">AI chatbot</span>
         </h2>
         <div className="lg:px-24 mx-auto">
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-24">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-x-20 gap-y-14 items-center">
+            {/* 1 */}
             <div className="flex flex-col justify-center items-center">
               <div className="imgcontainerbox gradientBackground p-3 rounded-2xl">
                 <Image src={Img24} alt="feature1" height={40} width={40} />
               </div>
               <h4
-                className="gradientText text-xl text-center mt-8 mb-3"
-                style={{ fontFamily: 'adieuregular', letterSpacing: '-3%' }}
+                className="gradientText text-xl text-center mt-4"
+                style={{ fontFamily: 'adieuregular', letterSpacing: '.03rem' }}
               >
                 24/7 engagement with your fans
               </h4>
-              <p
-                className="text-md text-center"
-                style={{
-                  fontFamily: 'Inter',
-                  color: 'rgba(166, 166, 166, 1)',
-                  letterSpacing: '-3%',
-                }}
-              >
-                We provide comprehensive SEO optimization services to improve
-                your website's search engine ranking and drive more organic
-                traffic to your site.
-              </p>
             </div>
+            {/* 2 */}
             <div className="flex flex-col justify-center items-center">
               <div className="imgcontainerbox gradientBackground p-3 rounded-2xl">
-                <Image src={Img24} alt="feature1" height={40} width={40} />
+                <Image src={giftbox} alt="feature2" height={40} width={40} />
               </div>
               <h4
-                className="gradientText text-xl text-center mt-8 mb-3"
-                style={{ fontFamily: 'adieuregular', letterSpacing: '-3%' }}
+                className="gradientText text-xl text-center mt-4"
+                style={{ fontFamily: 'adieuregular', letterSpacing: '.03rem' }}
               >
-                24/7 engagement with your fans
+                Built-in store to sell digital content & physical products
               </h4>
-              <p
-                className="text-md text-center"
-                style={{
-                  fontFamily: 'Inter',
-                  color: 'rgba(166, 166, 166, 1)',
-                  letterSpacing: '-3%',
-                }}
-              >
-                We provide comprehensive SEO optimization services to improve
-                your website's search engine ranking and drive more organic
-                traffic to your site.
-              </p>
             </div>
+            {/* 3 */}
             <div className="flex flex-col justify-center items-center">
               <div className="imgcontainerbox gradientBackground p-3 rounded-2xl">
-                <Image src={Img24} alt="feature1" height={40} width={40} />
+                <Image src={calendar} alt="feature1" height={40} width={40} />
               </div>
               <h4
-                className="gradientText text-xl text-center mt-8 mb-3"
-                style={{ fontFamily: 'adieuregular', letterSpacing: '-3%' }}
+                className="gradientText text-xl text-center mt-4"
+                style={{ fontFamily: 'adieuregular', letterSpacing: '.03rem' }}
               >
-                24/7 engagement with your fans
+                Accepts multiple payment methods with low fees
               </h4>
-              <p
-                className="text-md text-center"
-                style={{
-                  fontFamily: 'Inter',
-                  color: 'rgba(166, 166, 166, 1)',
-                  letterSpacing: '-3%',
-                }}
-              >
-                We provide comprehensive SEO optimization services to improve
-                your website's search engine ranking and drive more organic
-                traffic to your site.
-              </p>
             </div>
+            {/* 4 */}
             <div className="flex flex-col justify-center items-center">
               <div className="imgcontainerbox gradientBackground p-3 rounded-2xl">
-                <Image src={Img24} alt="feature1" height={40} width={40} />
+                <Image src={prize} alt="feature1" height={40} width={40} />
               </div>
               <h4
-                className="gradientText text-xl text-center mt-8 mb-3"
-                style={{ fontFamily: 'adieuregular', letterSpacing: '-3%' }}
+                className="gradientText text-xl text-center mt-4"
+                style={{ fontFamily: 'adieuregular', letterSpacing: '.03rem' }}
               >
-                24/7 engagement with your fans
+                Boost fan engagement with loyalty rewards & quizzes
               </h4>
-              <p
-                className="text-md text-center"
-                style={{
-                  fontFamily: 'Inter',
-                  color: 'rgba(166, 166, 166, 1)',
-                  letterSpacing: '-3%',
-                }}
-              >
-                We provide comprehensive SEO optimization services to improve
-                your website's search engine ranking and drive more organic
-                traffic to your site.
-              </p>
             </div>
+            {/* 5 */}
             <div className="flex flex-col justify-center items-center">
               <div className="imgcontainerbox gradientBackground p-3 rounded-2xl">
-                <Image src={Img24} alt="feature1" height={40} width={40} />
+                <Image src={peoplegrp} alt="feature1" height={40} width={40} />
               </div>
               <h4
-                className="gradientText text-xl text-center mt-8 mb-3"
-                style={{ fontFamily: 'adieuregular', letterSpacing: '-3%' }}
+                className="gradientText text-xl text-center mt-4"
+                style={{ fontFamily: 'adieuregular', letterSpacing: '.03rem' }}
               >
-                24/7 engagement with your fans
+                Personalized interactions for your fans
               </h4>
-              <p
-                className="text-md text-center"
-                style={{
-                  fontFamily: 'Inter',
-                  color: 'rgba(166, 166, 166, 1)',
-                  letterSpacing: '-3%',
-                }}
-              >
-                We provide comprehensive SEO optimization services to improve
-                your website's search engine ranking and drive more organic
-                traffic to your site.
-              </p>
             </div>
+            {/* 6 */}
             <div className="flex flex-col justify-center items-center">
               <div className="imgcontainerbox gradientBackground p-3 rounded-2xl">
-                <Image src={Img24} alt="feature1" height={40} width={40} />
+                <Image src={voicepic} alt="feature1" height={40} width={40} />
               </div>
               <h4
-                className="gradientText text-xl text-center mt-8 mb-3"
-                style={{ fontFamily: 'adieuregular', letterSpacing: '-3%' }}
+                className="gradientText text-xl text-center mt-4"
+                style={{ fontFamily: 'adieuregular', letterSpacing: '.03rem' }}
               >
-                24/7 engagement with your fans
+                Near-human realistic voice messages
               </h4>
-              <p
-                className="text-md text-center"
-                style={{
-                  fontFamily: 'Inter',
-                  color: 'rgba(166, 166, 166, 1)',
-                  letterSpacing: '-3%',
-                }}
-              >
-                We provide comprehensive SEO optimization services to improve
-                your website's search engine ranking and drive more organic
-                traffic to your site.
-              </p>
             </div>
+            {/* 7 */}
             <div className="flex flex-col justify-center items-center">
               <div className="imgcontainerbox gradientBackground p-3 rounded-2xl">
-                <Image src={Img24} alt="feature1" height={40} width={40} />
+                <Image src={message} alt="feature1" height={40} width={40} />
               </div>
               <h4
-                className="gradientText text-xl text-center mt-8 mb-3"
-                style={{ fontFamily: 'adieuregular', letterSpacing: '-3%' }}
+                className="gradientText text-xl text-center mt-4"
+                style={{ fontFamily: 'adieuregular', letterSpacing: '.03rem' }}
               >
-                24/7 engagement with your fans
+                Tailored conversation based on fan preferences
               </h4>
-              <p
-                className="text-md text-center"
-                style={{
-                  fontFamily: 'Inter',
-                  color: 'rgba(166, 166, 166, 1)',
-                  letterSpacing: '-3%',
-                }}
-              >
-                We provide comprehensive SEO optimization services to improve
-                your website's search engine ranking and drive more organic
-                traffic to your site.
-              </p>
             </div>
+            {/* 8 */}
             <div className="flex flex-col justify-center items-center">
               <div className="imgcontainerbox gradientBackground p-3 rounded-2xl">
-                <Image src={Img24} alt="feature1" height={40} width={40} />
+                <Image src={wtsapp} alt="feature1" height={40} width={40} />
               </div>
               <h4
-                className="gradientText text-xl text-center mt-8 mb-3"
-                style={{ fontFamily: 'adieuregular', letterSpacing: '-3%' }}
+                className="gradientText text-xl text-center mt-4"
+                style={{ fontFamily: 'adieuregular', letterSpacing: '.03rem' }}
               >
-                24/7 engagement with your fans
+                Share your workout routines or relationship advice
               </h4>
-              <p
-                className="text-md text-center"
-                style={{
-                  fontFamily: 'Inter',
-                  color: 'rgba(166, 166, 166, 1)',
-                  letterSpacing: '-3%',
-                }}
-              >
-                We provide comprehensive SEO optimization services to improve
-                your website's search engine ranking and drive more organic
-                traffic to your site.
-              </p>
             </div>
+            {/* 9 */}
             <div className="flex flex-col justify-center items-center">
               <div className="imgcontainerbox gradientBackground p-3 rounded-2xl">
-                <Image src={Img24} alt="feature1" height={40} width={40} />
+                <Image src={gift} alt="feature1" height={40} width={40} />
               </div>
               <h4
-                className="gradientText text-xl text-center mt-8 mb-3"
-                style={{ fontFamily: 'adieuregular', letterSpacing: '-3%' }}
+                className="gradientText text-xl text-center mt-4"
+                style={{ fontFamily: 'adieuregular', letterSpacing: '.03rem' }}
               >
-                24/7 engagement with your fans
+                Fun quizzes & exciting giveaways
               </h4>
-              <p
-                className="text-md text-center"
-                style={{
-                  fontFamily: 'Inter',
-                  color: 'rgba(166, 166, 166, 1)',
-                  letterSpacing: '-3%',
-                }}
-              >
-                We provide comprehensive SEO optimization services to improve
-                your website's search engine ranking and drive more organic
-                traffic to your site.
-              </p>
             </div>
           </div>
         </div>
