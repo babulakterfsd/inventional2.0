@@ -3,8 +3,8 @@ import RingPhoto from '../../../public/assets/images/orbit.png';
 
 const Possibilities = () => {
   return (
-    <div className="container">
-      <div className="grid grid-cols-12 bg-[#05101f] pt-10 pb-6">
+    <div className="container ">
+      <div className="grid grid-cols-12 bg-[rgba(0,12,0,.1) rgba(25, 12, 1, .5)] pt-12 pb-8">
         <div className="col-span-12 px-2 md:px-0 md:col-start-3 md:col-span-8">
           <div className="content gradientBackground rounded-xl py-8 px-10 relative top-8">
             <Image
@@ -18,7 +18,7 @@ const Possibilities = () => {
               <div className="col-span-12 md:col-span-8">
                 <h2
                   className="font-semibold text-3xl "
-                  style={{ fontFamily: 'adieuregular', letterSpacing: '-3%' }}
+                  style={{ fontFamily: 'adieuregular', letterSpacing: '.03em' }}
                 >
                   The possibilities are beyond your imagination.
                 </h2>

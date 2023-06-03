@@ -1,4 +1,5 @@
 import Styles from '../../styles/banner.module.css';
+
 const Banner = () => {
   return (
     <section className="bg-[#0c0a0c]">
@@ -6,7 +7,7 @@ const Banner = () => {
         <div className="grid grid-cols-12">
           <div className="col-span-12 md:col-span-6 mx-auto">
             {/* Banner text contents */}
-            <div className="h-screen flex flex-col justify-center items-start">
+            <div className="h-screen flex flex-col justify-center items-start relative">
               <button className="cursor-auto bg-[#201d2a] text-center py-1.5 px-8 rounded-full ">
                 <span
                   className="gradientText"
