@@ -2,6 +2,7 @@
 import Banner from '@/components/ui/Banner';
 import Features from '@/components/ui/Features';
 import Possibilities from '@/components/ui/Possibilities';
+import StepToFuture from '@/components/ui/StepToFuture';
 import Voice from '@/components/ui/Voice';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
@@ -18,6 +19,7 @@ export default function Home() {
       <Possibilities />
       <Voice />
       <Features />
+      <StepToFuture />
     </>
   );
 }

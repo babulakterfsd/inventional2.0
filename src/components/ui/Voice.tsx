@@ -7,7 +7,7 @@ const Voice = () => {
         <div className={`${Styles.voicebg} content pt-96 pb-72`}>
           <div className="grid grid-cols-1 lg:grid-cols-2 justify-between items-center">
             <h2
-              className="text-center text-6xl"
+              className="text-center text-xl lg:text-6xl"
               style={{ fontFamily: 'adieuregular', letterSpacing: '-3%' }}
             >
               Feel the power of <br />{' '}
