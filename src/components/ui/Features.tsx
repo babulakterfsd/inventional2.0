@@ -12,9 +12,9 @@ import wtsapp from '../../../public/assets/images/wtsapp.png';
 const Features = () => {
   return (
     <div className="container">
-      <div className="bg-[#060606] pt-10 pb-16">
+      <div className="bg-[#060606] pb-24">
         <h2
-          className="text-5xl font-[400] pt-12 mb-20 text-center"
+          className="text-5xl font-[400] pt-20 mb-20 text-center"
           style={{ fontFamily: 'adieuregular' }}
         >
           Features of our <span className="gradientText">AI chatbot</span>
