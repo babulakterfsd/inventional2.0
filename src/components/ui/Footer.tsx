@@ -114,9 +114,9 @@ const Footer = () => {
       </div>
       <div className="flex justify-between items-center px-20">
         <div className="flex gap-x-6 pt-4">
-          <span>Terms</span>
-          <span>Privacy</span>
-          <span>Cookies</span>
+          <span className="text-sm">Terms</span>
+          <span className="text-sm">Privacy</span>
+          <span className="text-sm">Cookies</span>
         </div>
         <div className="socialmediaicons flex gap-x-6 pt-4">
           <Image
