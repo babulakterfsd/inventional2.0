@@ -113,12 +113,12 @@ const Footer = () => {
         <div className="w-[90%] h-[1px] bg-[#687686]"></div>
       </div>
       <div className="flex justify-between items-center px-20">
-        <div className="flex gap-x-8 pt-4">
+        <div className="flex gap-x-6 pt-4">
           <span>Terms</span>
           <span>Privacy</span>
           <span>Cookies</span>
         </div>
-        <div className="socialmediaicons flex gap-x-8 pt-4">
+        <div className="socialmediaicons flex gap-x-6 pt-4">
           <Image
             src={insta}
             alt="insta"
