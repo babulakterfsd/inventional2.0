@@ -1,6 +1,8 @@
 'use client';
 import Banner from '@/components/ui/Banner';
+import Contact from '@/components/ui/Contact';
 import Features from '@/components/ui/Features';
+import Footer from '@/components/ui/Footer';
 import Possibilities from '@/components/ui/Possibilities';
 import StepToFuture from '@/components/ui/StepToFuture';
 import Voice from '@/components/ui/Voice';
@@ -20,6 +22,8 @@ export default function Home() {
       <Voice />
       <Features />
       <StepToFuture />
+      <Contact />
+      <Footer />
     </>
   );
 }
