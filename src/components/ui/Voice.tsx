@@ -4,7 +4,7 @@ const Voice = () => {
   return (
     <div className="container">
       <div className="bg-[#060d18] lg:bg-[#060606]">
-        <div className={`${Styles.voicebg} content pt-28 lg:pt-96 lg:pb-72`}>
+        <div className={`${Styles.voicebg} content pt-20 lg:pt-96 lg:pb-72`}>
           <div className="grid grid-cols-1 lg:grid-cols-2 justify-between items-center">
             <h2
               className="text-center text-3xl lg:text-6xl px-2 md:px-0"
@@ -20,7 +20,7 @@ const Voice = () => {
                 width="560"
                 height="315"
                 allow="autoplay; fullscreen; picture-in-picture"
-                className="rounded-2xl rounded-bl-xl h-80 w-full px-3 md:px-0 lg:w-[560px] -mt-14 md:-mt-0"
+                className="rounded-2xl rounded-bl-xl h-80 w-full px-3 md:px-0 lg:w-[560px] -mt-10 md:-mt-0"
                 style={{ borderRadius: '2rem' }}
               ></iframe>
             </div>
