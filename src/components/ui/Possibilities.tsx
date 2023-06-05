@@ -6,7 +6,7 @@ const Possibilities = () => {
     <div className="container ">
       <div className="grid grid-cols-12 bg-[rgba(0,12,0,.1) rgba(25, 12, 1, .5)] pt-12 pb-8">
         <div className="col-span-12 px-2 md:px-0 md:col-start-3 md:col-span-8">
-          <div className="content gradientBackground rounded-xl py-8 px-10 relative top-8">
+          <div className="content gradientBackground rounded-xl py-8 px-10 relative top-12">
             <Image
               src={RingPhoto}
               alt="ring"

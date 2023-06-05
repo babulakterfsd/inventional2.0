@@ -12,16 +12,16 @@ import wtsapp from '../../../public/assets/images/wtsapp.png';
 const Features = () => {
   return (
     <div className="container">
-      <div className="bg-[#060606] py-16 md:py-24">
+      <div className="bg-[#060606]  py-16 md:py-24">
         <h2
-          className="text-3xl md:text-5xl font-[400] mb-12 md:mb-20 text-center"
+          className="text-3xl md:text-5xl font-[400] mb-4 md:mb-20 text-center"
           style={{ fontFamily: 'adieuregular' }}
         >
           Features of our <br className="md:hidden" />{' '}
           <span className="gradientText">AI chatbot</span>
         </h2>
         <div className="px-6 md:px-24 mx-auto">
-          <div className="grid grid-cols-1 lg:grid-cols-3 md:gap-x-20 gap-y-16 md:gap-y-14 items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-3 md:gap-x-20 gap-y-10 md:gap-y-14 items-center">
             {/* 1 */}
             <div className="flex flex-col justify-center items-center border border-[rgba(255, 255, 255, 0.6)] rounded-xl p-6 md:p-0 md:border-0">
               <div className="imgcontainerbox gradientBackground p-3  rounded-2xl">

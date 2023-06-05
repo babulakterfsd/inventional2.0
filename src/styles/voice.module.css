@@ -1,7 +1,8 @@
-.voicebg {
+@media screen and (min-width: 1024px) {
+  .voicebg {
     background:linear-gradient(0deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1)),url('../../public/assets//images/voice-and-sound-wave.png');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
   }
-  
+}

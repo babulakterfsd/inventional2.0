@@ -3,11 +3,11 @@ import Styles from '../../styles/voice.module.css';
 const Voice = () => {
   return (
     <div className="container">
-      <div className="bg-[#060606]">
-        <div className={`${Styles.voicebg} content pt-96 pb-72`}>
+      <div className="bg-[#060606] lg:bg-[#060606]">
+        <div className={`${Styles.voicebg} content pt-36 lg:pt-96 lg:pb-72`}>
           <div className="grid grid-cols-1 lg:grid-cols-2 justify-between items-center">
             <h2
-              className="text-center text-xl lg:text-6xl"
+              className="text-center text-3xl lg:text-6xl"
               style={{ fontFamily: 'adieuregular', letterSpacing: '-3%' }}
             >
               Feel the power of <br />{' '}
@@ -20,7 +20,8 @@ const Voice = () => {
                 width="560"
                 height="315"
                 allow="autoplay; fullscreen; picture-in-picture"
-                className="rounded-2xl rounded-bl-xl h-80 w-full lg:w-[560px]"
+                className="rounded-2xl rounded-bl-xl h-80 w-full px-2 md:px-0 lg:w-[560px] -mt-14 md:-mt-0"
+                style={{ borderRadius: '2rem' }}
               ></iframe>
             </div>
           </div>
