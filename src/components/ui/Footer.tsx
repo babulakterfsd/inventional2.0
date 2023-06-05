@@ -109,7 +109,7 @@ const Footer = () => {
                 <span>QAI</span>
                 <span>Support</span>
                 <span>Policy</span>
-                <span>Terms Of Services</span>
+                <span>Terms Of Service</span>
               </div>
             </div>
           </div>
