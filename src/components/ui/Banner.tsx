@@ -55,7 +55,7 @@ const Banner = () => {
                   padding: '0px 8px',
                   fontWeight: 500,
                   textShadow: '0px 0px 10px rgba(255, 255, 255, 0.5)',
-                  marginTop: '15rem',
+                  marginTop: '17rem',
                 }}
                 className="font-semibold text-xl block md:hidden"
               >
