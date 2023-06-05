@@ -2,6 +2,7 @@ import Image from 'next/image';
 import fb from '../../../public/assets/images/fb.png';
 import insta from '../../../public/assets/images/insta.png';
 import logo from '../../../public/assets/images/logofooter.png';
+import rightarrowbutton from '../../../public/assets/images/rightarrowbutton.png';
 import twitter from '../../../public/assets/images/twitter.png';
 import youtube from '../../../public/assets/images/utube.png';
 import Styles from '../../styles/footer.module.css';
@@ -18,7 +19,7 @@ const Footer = () => {
             Lorem ipsum dolor sit amet consectetur. Lobortis duis duis sed sit
             integer mauris gravida proin eget.
           </p>
-          <div className="px-0.5 flex justify-center items-center flex-col gap-y-5">
+          <div className="hidden md:flex px-0.5 justify-center items-center flex-col gap-y-5">
             <div className="flex flex-col lg:ml-5 mt-16">
               <h4 className=" font-semibold text-gray-200 my-1 lg:ml-5 text-md ">
                 Join Waitlist!
@@ -27,28 +28,21 @@ const Footer = () => {
                 <form className="relative">
                   <input
                     type="email"
-                    className="lg:w-[414px] h-12 pl-10 text-sm border rounded-full bg-[#040c18] border-none focus:outline-none"
+                    className="w-[414px] h-12 pl-10 text-sm border rounded-full bg-[#040c18] border-none focus:outline-none"
                     placeholder="e.g. hello@inventional.com"
                     required
                   />
                   <button
                     type="submit"
-                    className={`absolute -ml-12 bg-[#1a263a] rounded-full p-2 mt-1`}
+                    className={`absolute -ml-12 gradientBackground rounded-full p-2 mt-1`}
                   >
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      className={`${Styles.animateArrow} h-6 w-6 text-[#ff00ff] right-2 top-3`}
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        d="M9 5l7 7-7 7"
-                      />
-                    </svg>
+                    <Image
+                      src={rightarrowbutton}
+                      alt="rightArrowButton"
+                      height={24}
+                      width={24}
+                      className={`${Styles.animateArrow} h-6 w-6 right-2 top-3`}
+                    />
                   </button>
                 </form>
               </div>
