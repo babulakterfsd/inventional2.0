@@ -7,10 +7,10 @@ const Banner = () => {
         <div className="grid grid-cols-12">
           <div className="col-span-12 md:col-span-6 mx-auto">
             {/* Banner text contents */}
-            <div className="h-screen flex flex-col justify-center items-start relative">
-              <button className="cursor-auto bg-[#201d2a] text-center py-1.5 px-8 rounded-full ">
+            <div className="h-screen flex flex-col justify-center items-start relative -top-24 md:top-0">
+              <button className="cursor-auto bg-black md:bg-[#201d2a] text-center py-1 md:py-1.5 px-4 md:px-8 rounded-full ">
                 <span
-                  className="gradientText"
+                  className="gradientText text-xs md:text-base"
                   style={{
                     fontFamily: 'adieuregular',
                   }}
@@ -19,7 +19,7 @@ const Banner = () => {
                 </span>
               </button>
               <h1
-                className="text-5xl font-[400] my-8 "
+                className="text-2xl md:text-5xl font-[400] md:my-8 px-1 md:px-0"
                 style={{ fontFamily: 'adieuregular' }}
               >
                 What is <span className="gradientText">Inventional</span>

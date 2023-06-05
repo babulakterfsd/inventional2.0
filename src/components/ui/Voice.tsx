@@ -15,12 +15,13 @@ const Voice = () => {
             </h2>
             <div className="lg:ml-20">
               <iframe
+                title="vimeo-player"
+                src="https://player.vimeo.com/video/833090901?h=927d1290cd"
                 width="560"
                 height="315"
-                src="https://www.youtube.com/embed/lf9mE5kEUCs?controls=0&showinfo=0&rel=0&autoplay=1"
-                allow="autoplay"
+                allow="autoplay; fullscreen; picture-in-picture"
                 className="rounded-2xl rounded-bl-xl h-80 w-full lg:w-[560px]"
-              />
+              ></iframe>
             </div>
           </div>
         </div>
