@@ -11,7 +11,7 @@ const Contact = () => {
       <div className="hidden md:block bg-[#040404] py-8 md:py-14"></div>
       <div className=" bg-[#040404] md:bg-[#060d18] pt-12 md:pt-0 md:py-6 flex flex-col md:gap-y-20 justify-center items-center mt-12 md:mt-0 px-2 md:px-0">
         <div className="bg-[#171b29] rounded-xl md:p-4 -mt-14 md:w-10/12">
-          <div className="gradientBackground px-1 md:px-6 py-6 rounded-xl flex flex-col md:flex-row justify-evenly items-center">
+          <div className="gradientBackground p-6 rounded-xl flex flex-col md:flex-row justify-evenly items-center">
             <h2
               className="text-2xl md:px-4 text-center"
               style={{
@@ -65,8 +65,8 @@ const Contact = () => {
           <div className="flex md:hidden justify-center items-center">
             <div className="flex flex-col mt-8 justify-center items-center">
               <h4
-                className=" font-semibold text-gray-200 my-1 text-sm "
-                style={{ letterSpacing: '1.5%' }}
+                className=" font-bold text-gray-200 my-1 text-sm "
+                style={{ letterSpacing: '.05rem' }}
               >
                 Join Wait List!
               </h4>
@@ -74,7 +74,7 @@ const Contact = () => {
                 <form className="relative">
                   <input
                     type="email"
-                    className="w-[95vw] h-12 pl-10 text-sm border rounded-full bg-[#040c18] border-none focus:outline-none"
+                    className="w-[95vw] h-12 pl-10 text-sm border rounded-full bg-[#171b29] border-none focus:outline-none"
                     placeholder="e.g. hello@inventional.com"
                     required
                   />
