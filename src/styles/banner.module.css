@@ -1,6 +1,18 @@
-.bannerbg {
-  background-image: url('../../public/assets/images/headerbg.png');
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
+@media screen and (max-width: 1023.5px) {
+  .bannerbg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)),
+      url('../../public/assets/images/headerbg.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .bannerbg {
+    background-image: url('../../public/assets/images/headerbg.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }

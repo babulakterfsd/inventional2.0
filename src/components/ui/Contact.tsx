@@ -1,9 +1,8 @@
 import Image from 'next/image';
 import bekatir from '../../../public/assets/images/bekatir.png';
-import rightArrowButton from '../../../public/assets/images/rightarrowbutton.png';
 import sundown from '../../../public/assets/images/sundown.png';
 import sunup from '../../../public/assets/images/sunup.png';
-import Styles from '../../styles/footer.module.css';
+import MobileInputBox from '../shared/MobileInputBox';
 
 const Contact = () => {
   return (
@@ -62,38 +61,7 @@ const Contact = () => {
             <span className="gradientText">INVENTIONAL OPEN AI</span>
           </h2>
           {/* input box */}
-          <div className="flex md:hidden justify-center items-center">
-            <div className="flex flex-col mt-8 justify-center items-center">
-              <h4
-                className=" font-bold text-gray-200 my-1 text-sm "
-                style={{ letterSpacing: '.05rem' }}
-              >
-                Join Wait List!
-              </h4>
-              <div className="self-center">
-                <form className="relative">
-                  <input
-                    type="email"
-                    className="w-[92vw] h-12 pl-10 text-sm border rounded-full bg-[#171b29] border-none focus:outline-none"
-                    placeholder="e.g. hello@inventional.com"
-                    required
-                  />
-                  <button
-                    type="submit"
-                    className={`absolute -ml-12 gradientBackground rounded-full p-2 mt-1`}
-                  >
-                    <Image
-                      src={rightArrowButton}
-                      alt="rightArrowButton"
-                      height={24}
-                      width={24}
-                      className={`${Styles.animateArrow} h-6 w-6 right-2 top-3`}
-                    />
-                  </button>
-                </form>
-              </div>
-            </div>
-          </div>
+          <MobileInputBox />
         </div>
       </div>
       <div className="bg-[#040404] pt-8 md:pt-24 absolute rounded-bl-[100px] w-full"></div>
