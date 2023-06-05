@@ -10,7 +10,7 @@ const Possibilities = () => {
             <Image
               src={RingPhoto}
               alt="ring"
-              className="hidden md:block absolute -mt-20 ml-80"
+              className="hidden lg:block absolute -mt-20 ml-80"
               height={500}
               width={480}
             />

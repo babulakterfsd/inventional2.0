@@ -12,7 +12,7 @@ import wtsapp from '../../../public/assets/images/wtsapp.png';
 const Features = () => {
   return (
     <div className="container">
-      <div className="bg-[#060606]  py-16 md:py-24">
+      <div className="bg-[#060606] py-16 md:py-24">
         <h2
           className="text-3xl md:text-5xl font-[400] mb-4 md:mb-20 text-center"
           style={{ fontFamily: 'adieuregular' }}

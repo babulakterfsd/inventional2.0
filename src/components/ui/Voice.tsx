@@ -20,7 +20,7 @@ const Voice = () => {
                 width="560"
                 height="315"
                 allow="autoplay; fullscreen; picture-in-picture"
-                className="rounded-2xl rounded-bl-xl h-80 w-full px-3 md:px-0 lg:w-[560px] -mt-10 md:-mt-0"
+                className={`${Styles.iframeMargin} rounded-2xl rounded-bl-xl h-80 w-full px-3 md:px-0 lg:w-[560px] -mt-10 md:-mt-0`}
                 style={{ borderRadius: '2rem' }}
               ></iframe>
             </div>

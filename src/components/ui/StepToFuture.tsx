@@ -10,7 +10,7 @@ import steptopright from '../../../public/assets/images/steptopright.png';
 const StepToFuture = () => {
   return (
     <div className="container">
-      <div className="bg-[#060d18] pt-44 pb-12 md:py-20 px-2 flex flex-wrap md:block">
+      <div className="bg-[#060d18] pt-32 pb-12 md:py-20 px-2 flex flex-wrap md:block">
         <div className="flex flex-col gap-y-6 md:flex-row justify-between items-center">
           {/* top left */}
           <div className="bg-[#0e1622] w-full md:w-96 p-4 md:p-8 rounded-xl relative flex md:block justify-center items-center flex-col">
@@ -92,7 +92,7 @@ const StepToFuture = () => {
             toady & make it happen
           </h2>
         </div>
-        <div className="flex flex-col gap-y-4 lg:flex-row justify-between items-center">
+        <div className="flex flex-col gap-y-4 md:flex-row justify-between items-center">
           {/* bottom left */}
           <div className="bg-[#0e1622] w-full md:w-96 p-4 md:p-8 rounded-xl relative flex md:block justify-center items-center flex-col">
             <Image src={fatlineImg} alt="fatline" height={7} width={77} />
