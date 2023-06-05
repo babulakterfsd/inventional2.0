@@ -33,7 +33,7 @@ const Footer = () => {
             integer mauris gravida proin eget.
           </p>
           <div className="hidden md:flex px-0.5 justify-center items-center flex-col gap-y-5">
-            <div className="flex flex-col lg:ml-5 mt-14">
+            <div className="flex flex-col lg:ml-5 mt-8">
               <h4 className=" font-semibold text-gray-200 my-1 lg:ml-5 text-md ">
                 Join Waitlist!
               </h4>
@@ -41,7 +41,7 @@ const Footer = () => {
                 <form className="relative">
                   <input
                     type="email"
-                    className="w-[414px] h-12 pl-10 text-sm border rounded-full bg-[#040c18] border-none focus:outline-none"
+                    className="w-[414px] h-12 pl-4 text-sm border rounded-full bg-[#040c18] border-none focus:outline-none"
                     placeholder="e.g. hello@inventional.com"
                     required
                   />

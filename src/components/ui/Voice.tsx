@@ -3,8 +3,8 @@ import Styles from '../../styles/voice.module.css';
 const Voice = () => {
   return (
     <div className="container">
-      <div className="bg-[#060606] lg:bg-[#060606]">
-        <div className={`${Styles.voicebg} content pt-36 lg:pt-96 lg:pb-72`}>
+      <div className="bg-[#060d18] lg:bg-[#060606]">
+        <div className={`${Styles.voicebg} content pt-28 lg:pt-96 lg:pb-72`}>
           <div className="grid grid-cols-1 lg:grid-cols-2 justify-between items-center">
             <h2
               className="text-center text-3xl lg:text-6xl px-2 md:px-0"
