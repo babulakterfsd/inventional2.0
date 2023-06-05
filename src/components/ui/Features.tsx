@@ -21,7 +21,7 @@ const Features = () => {
           <span className="gradientText">AI chatbot</span>
         </h2>
         <div className="px-6 md:px-24 mx-auto">
-          <div className="grid grid-cols-1 lg:grid-cols-3 md:gap-x-20 gap-y-10 md:gap-y-14 items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-3 md:gap-x-20 gap-y-8 md:gap-y-14 items-center">
             {/* 1 */}
             <div className="flex flex-col justify-center items-center border border-[rgba(255, 255, 255, 0.6)] rounded-xl p-6 md:p-0 md:border-0">
               <div className="imgcontainerbox gradientBackground p-3  rounded-2xl">
