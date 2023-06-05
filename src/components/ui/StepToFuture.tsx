@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import circleGradient from '../../../public/assets/images/Ellipse.png';
+import chera from '../../../public/assets/images/chera.png';
 import fatlineImg from '../../../public/assets/images/fatline.png';
 import stepbottomleft from '../../../public/assets/images/stepbottomleft.png';
 import stepbottomright from '../../../public/assets/images/stepbottomright.png';
@@ -9,7 +10,7 @@ import steptopright from '../../../public/assets/images/steptopright.png';
 const StepToFuture = () => {
   return (
     <div className="container">
-      <div className="bg-[#060d18] py-8 md:py-20 px-2 flex flex-wrap md:block">
+      <div className="bg-[#060d18] pt-36 pb-12 md:py-20 px-2 flex flex-wrap md:block">
         <div className="flex flex-col gap-y-6 md:flex-row justify-between items-center">
           {/* top left */}
           <div className="bg-[#0e1622] w-full md:w-96 p-4 md:p-8 rounded-xl relative flex md:block justify-center items-center flex-col">
@@ -75,9 +76,16 @@ const StepToFuture = () => {
           </div>
         </div>
         {/* centered title */}
-        <div className="flex justify-center items-center md:my-28 w-full md:w-[600px] mx-auto order-first">
+        <div className="flex justify-center items-center md:my-28 w-full md:w-[600px] mx-auto order-first relative">
+          <Image
+            src={chera}
+            alt="chera"
+            height={50}
+            width={80}
+            className="absolute -top-20 left-0 block md:hidden "
+          />
           <h2
-            className="gradientText text-xl lg:text-3xl text-center my-4 md:my-0"
+            className="gradientText text-xl lg:text-3xl text-center my-4 md:my-0 px-3 md:px-0"
             style={{ fontFamily: 'adieuregular', letterSpacing: '-.03rem' }}
           >
             The future is now and you just need to realize it. Step into future
