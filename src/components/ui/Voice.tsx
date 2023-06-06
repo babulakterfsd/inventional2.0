@@ -4,7 +4,9 @@ const Voice = () => {
   return (
     <div className="container">
       <div className="bg-[#131f31] lg:bg-[#060606]">
-        <div className={`${Styles.voicebg} content pt-20 lg:pt-96 lg:pb-72`}>
+        <div
+          className={`${Styles.voicebg} content pt-20 md:pt-32 md:pb-12 xl:pt-96 xl:pb-72`}
+        >
           <div className="grid grid-cols-1 xl:grid-cols-2 justify-between items-center">
             <h2
               className="text-center text-3xl lg:text-6xl px-2 md:px-0"

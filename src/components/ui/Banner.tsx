@@ -76,9 +76,10 @@ const Banner = () => {
             <div className="h-screen flex flex-col justify-start md:justify-center items-center md:items-start relative">
               <button className="cursor-auto bg-black md:bg-[#201d2a] text-center my-4 md:my-0 py-1 md:py-1.5 px-4 md:px-8 rounded-full ">
                 <span
-                  className="gradientText text-xs md:text-base"
+                  className="gradientText text-xs md:text-base font-semibold text-center"
                   style={{
                     fontFamily: 'adieuregular',
+                    letterSpacing: '.1rem',
                   }}
                 >
                   Engage, Enjoy, Evolve
@@ -120,7 +121,7 @@ const Banner = () => {
                   padding: '0px 8px',
                   fontWeight: 500,
                   textShadow: '0px 0px 10px rgba(255, 255, 255, 0.5)',
-                  marginTop: '17rem',
+                  marginTop: '16rem',
                 }}
                 className="font-semibold text-xl block md:hidden"
               >
