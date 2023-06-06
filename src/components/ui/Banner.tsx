@@ -1,7 +1,72 @@
+'use client';
+import axios from 'axios';
+import { useState } from 'react';
 import Styles from '../../styles/banner.module.css';
 import MobileInputBox from '../shared/MobileInputBox';
 
 const Banner = () => {
+  const [email, setEmail] = useState('');
+  const [showResult, setShowResult] = useState(false);
+  const [errorMessage, setErrorMessage] = useState('');
+  const [successMessage, setSuccessMessage] = useState('');
+
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+
+    const validateEmail = (mail: string) => {
+      return String(mail)
+        .toLowerCase()
+        .match(
+          /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|.(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
+        );
+    };
+
+    const isValidEmail = validateEmail(email);
+
+    if (!isValidEmail) {
+      setShowResult(true);
+      setErrorMessage('Invalid email address');
+      setTimeout(() => {
+        setShowResult(false);
+        setErrorMessage('');
+      }, 3000);
+      return;
+    } else {
+      axios
+        .post('/api/waitlist', {
+          email: email,
+        })
+        .then((res) => {
+          if (res?.data?.statusCode === 200) {
+            setEmail('');
+            setShowResult(true);
+            setSuccessMessage(res.data.message);
+            setTimeout(() => {
+              setShowResult(false);
+              setSuccessMessage('');
+              setErrorMessage('');
+            }, 9000);
+          } else if (res?.data?.statusCode === 400) {
+            setShowResult(true);
+            setErrorMessage(res.data.message);
+            setTimeout(() => {
+              setShowResult(false);
+              setErrorMessage('');
+              setSuccessMessage('');
+            }, 3000);
+          }
+        })
+        .catch((err) => {
+          setShowResult(true);
+          setErrorMessage(err);
+          setTimeout(() => {
+            setShowResult(false);
+            setErrorMessage('');
+          }, 3000);
+        });
+    }
+  };
+
   return (
     <section className="bg-[#0c0a0c]">
       <div className={`${Styles.bannerbg} container h-screen md:pl-12`}>
@@ -16,7 +81,7 @@ const Banner = () => {
                     fontFamily: 'adieuregular',
                   }}
                 >
-                  ENTER INTO THE FUTURE
+                  Engage, Enjoy, Evolve
                 </span>
               </button>
               {/* desktops title */}
@@ -68,12 +133,14 @@ const Banner = () => {
                 <MobileInputBox />
               </div>
               <div className="hidden md:block mt-28">
-                <form className="relative">
+                <form className="relative" onSubmit={handleSubmit}>
                   <input
                     type="email"
                     className="md:w-[630px] h-14 pl-10  text-sm border rounded-full bg-[#161a25] border-none focus:outline-none"
                     placeholder="ex: youremail@gmail.com"
                     required
+                    value={email}
+                    onChange={(e) => setEmail(e.target.value)}
                   />
                   <button
                     type="submit"
@@ -82,6 +149,58 @@ const Banner = () => {
                     Join Waitlist
                   </button>
                 </form>
+                {showResult ? (
+                  <div className="flex justify-center items-center">
+                    <div className="bg-[#0a071d] rounded-full px-3 cursor-auto mx-auto my-4 py-1 absolute mt-16">
+                      {successMessage ? (
+                        <div className="flex gap-x-1 items-center justify-center">
+                          <svg
+                            className="h-5 w-5 text-green-500"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            strokeWidth="1"
+                            stroke="currentColor"
+                            fill="none"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                          >
+                            <path stroke="none" d="M0 0h24v24H0z" />{' '}
+                            <circle cx="12" cy="12" r="9" />{' '}
+                            <path d="M9 12l2 2l4 -4" />
+                          </svg>
+                          <span className="text-green-600 font-semibold text-md text-center">
+                            {' '}
+                            {successMessage}
+                          </span>
+                        </div>
+                      ) : (
+                        <div className="flex gap-x-1 items-center justify-center">
+                          <svg
+                            className="h-5 w-5 text-red-500"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            strokeWidth="2"
+                            stroke="currentColor"
+                            fill="none"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                          >
+                            {' '}
+                            <path stroke="none" d="M0 0h24v24H0z" />{' '}
+                            <circle cx="12" cy="12" r="9" />{' '}
+                            <path d="M10 10l4 4m0 -4l-4 4" />
+                          </svg>
+                          <span className="text-red-600 font-semibold text-md text-center">
+                            {' '}
+                            {errorMessage}
+                          </span>
+                        </div>
+                      )}
+                    </div>
+                  </div>
+                ) : null}
               </div>
             </div>
           </div>
