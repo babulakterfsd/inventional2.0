@@ -5,7 +5,7 @@ const Voice = () => {
     <div className="container">
       <div className="bg-[#131f31] lg:bg-[#060606]">
         <div className={`${Styles.voicebg} content pt-20 lg:pt-96 lg:pb-72`}>
-          <div className="grid grid-cols-1 lg:grid-cols-2 justify-between items-center">
+          <div className="grid grid-cols-1 xl:grid-cols-2 justify-between items-center">
             <h2
               className="text-center text-3xl lg:text-6xl px-2 md:px-0"
               style={{ fontFamily: 'adieuregular', letterSpacing: '-3%' }}
