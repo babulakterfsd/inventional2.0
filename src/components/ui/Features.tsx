@@ -16,6 +16,8 @@ const Features = () => {
         <h2
           className="text-3xl md:text-5xl font-[400] mb-4 md:mb-20 text-center"
           style={{ fontFamily: 'adieuregular' }}
+          data-aos="fade-down"
+          data-aos-duration="1500"
         >
           Features of our <br className="md:hidden" />{' '}
           <span className="gradientText">AI chatbot</span>
@@ -23,7 +25,11 @@ const Features = () => {
         <div className="px-6 md:px-24 mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-3 md:gap-x-20 gap-y-8 md:gap-y-14 items-center">
             {/* 1 */}
-            <div className="flex flex-col justify-center items-center border border-[rgba(255, 255, 255, 0.6)] rounded-xl p-6 md:p-0 md:border-0">
+            <div
+              className="flex flex-col justify-center items-center border border-[rgba(255, 255, 255, 0.6)] rounded-xl p-6 md:p-0 md:border-0"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+            >
               <div className="imgcontainerbox gradientBackground p-3  rounded-2xl">
                 <Image src={Img24} alt="feature1" height={40} width={40} />
               </div>
@@ -35,7 +41,11 @@ const Features = () => {
               </h4>
             </div>
             {/* 2 */}
-            <div className="flex flex-col justify-center items-center border border-[rgba(255, 255, 255, 0.6)] rounded-xl p-6 md:p-0 md:border-0">
+            <div
+              className="flex flex-col justify-center items-center border border-[rgba(255, 255, 255, 0.6)] rounded-xl p-6 md:p-0 md:border-0"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+            >
               <div className="imgcontainerbox gradientBackground p-3 rounded-2xl">
                 <Image src={giftbox} alt="feature2" height={40} width={40} />
               </div>
@@ -47,7 +57,11 @@ const Features = () => {
               </h4>
             </div>
             {/* 3 */}
-            <div className="flex flex-col justify-center items-center border border-[rgba(255, 255, 255, 0.6)] rounded-xl p-6 md:p-0 md:border-0">
+            <div
+              className="flex flex-col justify-center items-center border border-[rgba(255, 255, 255, 0.6)] rounded-xl p-6 md:p-0 md:border-0"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+            >
               <div className="imgcontainerbox gradientBackground py-4 px-3 rounded-2xl">
                 <Image src={calendar} alt="feature1" height={45} width={40} />
               </div>
@@ -59,7 +73,11 @@ const Features = () => {
               </h4>
             </div>
             {/* 4 */}
-            <div className="flex flex-col justify-center items-center border border-[rgba(255, 255, 255, 0.6)] rounded-xl p-6 md:p-0 md:border-0">
+            <div
+              className="flex flex-col justify-center items-center border border-[rgba(255, 255, 255, 0.6)] rounded-xl p-6 md:p-0 md:border-0"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+            >
               <div className="imgcontainerbox gradientBackground p-3 rounded-2xl">
                 <Image src={prize} alt="feature1" height={40} width={40} />
               </div>
@@ -71,7 +89,11 @@ const Features = () => {
               </h4>
             </div>
             {/* 5 */}
-            <div className="flex flex-col justify-center items-center border border-[rgba(255, 255, 255, 0.6)] rounded-xl p-6 md:p-0 md:border-0">
+            <div
+              className="flex flex-col justify-center items-center border border-[rgba(255, 255, 255, 0.6)] rounded-xl p-6 md:p-0 md:border-0"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+            >
               <div className="imgcontainerbox gradientBackground p-3 rounded-2xl">
                 <Image src={peoplegrp} alt="feature1" height={40} width={40} />
               </div>
@@ -83,7 +105,11 @@ const Features = () => {
               </h4>
             </div>
             {/* 6 */}
-            <div className="flex flex-col justify-center items-center border border-[rgba(255, 255, 255, 0.6)] rounded-xl p-6 md:p-0 md:border-0">
+            <div
+              className="flex flex-col justify-center items-center border border-[rgba(255, 255, 255, 0.6)] rounded-xl p-6 md:p-0 md:border-0"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+            >
               <div className="imgcontainerbox gradientBackground p-3 rounded-2xl">
                 <Image src={voicepic} alt="feature1" height={40} width={40} />
               </div>
@@ -95,7 +121,11 @@ const Features = () => {
               </h4>
             </div>
             {/* 7 */}
-            <div className="flex flex-col justify-center items-center border border-[rgba(255, 255, 255, 0.6)] rounded-xl p-6 md:p-0 md:border-0">
+            <div
+              className="flex flex-col justify-center items-center border border-[rgba(255, 255, 255, 0.6)] rounded-xl p-6 md:p-0 md:border-0"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+            >
               <div className="imgcontainerbox gradientBackground p-3 rounded-2xl">
                 <Image src={message} alt="feature1" height={40} width={40} />
               </div>
@@ -107,7 +137,11 @@ const Features = () => {
               </h4>
             </div>
             {/* 8 */}
-            <div className="flex flex-col justify-center items-center border border-[rgba(255, 255, 255, 0.6)] rounded-xl p-6 md:p-0 md:border-0">
+            <div
+              className="flex flex-col justify-center items-center border border-[rgba(255, 255, 255, 0.6)] rounded-xl p-6 md:p-0 md:border-0"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+            >
               <div className="imgcontainerbox gradientBackground p-3 rounded-2xl">
                 <Image src={wtsapp} alt="feature1" height={40} width={40} />
               </div>
@@ -119,7 +153,11 @@ const Features = () => {
               </h4>
             </div>
             {/* 9 */}
-            <div className="flex flex-col justify-center items-center border border-[rgba(255, 255, 255, 0.6)] rounded-xl p-6 md:p-0 md:border-0">
+            <div
+              className="flex flex-col justify-center items-center border border-[rgba(255, 255, 255, 0.6)] rounded-xl p-6 md:p-0 md:border-0"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+            >
               <div className="imgcontainerbox gradientBackground p-3 rounded-2xl">
                 <Image src={gift} alt="feature1" height={40} width={40} />
               </div>

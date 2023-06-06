@@ -13,7 +13,11 @@ const StepToFuture = () => {
       <div className="bg-[#060d18] pt-32 pb-12 md:py-20 px-2 flex flex-wrap md:block">
         <div className="flex flex-col gap-y-6 md:flex-row justify-between items-center">
           {/* top left */}
-          <div className="bg-[#0e1622] w-full md:w-96 p-4 md:p-8 rounded-xl relative flex md:block justify-center items-center flex-col">
+          <div
+            className="bg-[#0e1622] w-full md:w-96 p-4 md:p-8 rounded-xl relative flex md:block justify-center items-center flex-col"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+          >
             <Image src={fatlineImg} alt="fatline" height={7} width={77} />
             <Image
               src={circleGradient}
@@ -44,7 +48,11 @@ const StepToFuture = () => {
             />
           </div>
           {/* top right */}
-          <div className="bg-[#0e1622] w-full md:w-96 p-4 md:p-8 rounded-xl relative flex md:block justify-center items-center flex-col mb-6 md:mb-0">
+          <div
+            className="bg-[#0e1622] w-full md:w-96 p-4 md:p-8 rounded-xl relative flex md:block justify-center items-center flex-col mb-6 md:mb-0"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+          >
             <Image src={fatlineImg} alt="fatline" height={7} width={77} />
             <Image
               src={circleGradient}
@@ -76,7 +84,11 @@ const StepToFuture = () => {
           </div>
         </div>
         {/* centered title */}
-        <div className="flex justify-center items-center md:my-28 w-full md:w-[600px] mx-auto order-first relative">
+        <div
+          className="flex justify-center items-center md:my-28 w-full md:w-[600px] mx-auto order-first relative"
+          data-aos="fade-down"
+          data-aos-duration="1500"
+        >
           <Image
             src={chera}
             alt="chera"
@@ -94,7 +106,11 @@ const StepToFuture = () => {
         </div>
         <div className="flex flex-col gap-y-4 md:flex-row justify-between items-center">
           {/* bottom left */}
-          <div className="bg-[#0e1622] w-full md:w-96 p-4 md:p-8 rounded-xl relative flex md:block justify-center items-center flex-col">
+          <div
+            className="bg-[#0e1622] w-full md:w-96 p-4 md:p-8 rounded-xl relative flex md:block justify-center items-center flex-col"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+          >
             <Image src={fatlineImg} alt="fatline" height={7} width={77} />
             <Image
               src={circleGradient}
@@ -125,7 +141,11 @@ const StepToFuture = () => {
             />
           </div>
           {/* bottom right */}
-          <div className="bg-[#0e1622] w-full md:w-96 p-4 md:p-8 rounded-xl relative flex md:block justify-center items-center flex-col">
+          <div
+            className="bg-[#0e1622] w-full md:w-96 p-4 md:p-8 rounded-xl relative flex md:block justify-center items-center flex-col"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+          >
             <Image src={fatlineImg} alt="fatline" height={7} width={77} />
             <Image
               src={circleGradient}

@@ -9,7 +9,11 @@ const Contact = () => {
     <div className="container relative">
       <div className="hidden md:block bg-[#040404] py-8 md:py-14"></div>
       <div className=" bg-[#040404] md:bg-[#060d18] pt-12 md:pt-0 md:py-6 flex flex-col md:gap-y-20 justify-center items-center mt-12 md:mt-0 px-4 md:px-0">
-        <div className="bg-[#171b29] rounded-xl md:p-4 -mt-14 md:w-10/12">
+        <div
+          className="bg-[#171b29] rounded-xl md:p-4 -mt-14 md:w-10/12"
+          data-aos="zoom-in"
+          data-aos-duration="1500"
+        >
           <div className="gradientBackground px-1 md:px-6 py-6 rounded-xl flex flex-col md:flex-row justify-evenly items-center">
             <h2
               className="text-2xl md:px-4 text-center"
@@ -56,12 +60,16 @@ const Contact = () => {
               letterSpacing: '-0.03rem',
               lineHeight: '1.2',
             }}
+            data-aos="zoom-in"
+            data-aos-duration="1500"
           >
             Let's Build something with <br />
             <span className="gradientText">INVENTIONAL OPEN AI</span>
           </h2>
           {/* input box */}
-          <MobileInputBox />
+          <div data-aos="fade-up" data-aos-duration="1500">
+            <MobileInputBox />
+          </div>
         </div>
       </div>
       <div className="bg-[#040404] pt-8 md:pt-24 absolute rounded-bl-[100px] w-full"></div>

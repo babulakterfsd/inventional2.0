@@ -11,11 +11,17 @@ const Voice = () => {
             <h2
               className="text-center text-3xl lg:text-6xl px-2 md:px-0"
               style={{ fontFamily: 'adieuregular', letterSpacing: '-3%' }}
+              data-aos="zoom-in"
+              data-aos-duration="1500"
             >
               Feel the power of <br />{' '}
               <span className="gradientText font-bold">inventional AI</span>
             </h2>
-            <div className="lg:ml-20">
+            <div
+              className="lg:ml-20"
+              data-aos="zoom-in"
+              data-aos-duration="1500"
+            >
               <iframe
                 title="vimeo-player"
                 src="https://player.vimeo.com/video/833090901?h=927d1290cd"
