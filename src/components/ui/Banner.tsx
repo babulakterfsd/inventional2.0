@@ -76,7 +76,7 @@ const Banner = () => {
             <div className="h-screen flex flex-col justify-start md:justify-center items-center md:items-start relative">
               <button
                 className="cursor-auto bg-black md:bg-[#201d2a] text-center my-4 md:my-0 py-1 md:py-1.5 px-4 md:px-8 rounded-full "
-                data-aos="fade-right"
+                data-aos="fade-down"
                 data-aos-duration="2000"
               >
                 <span
@@ -93,7 +93,7 @@ const Banner = () => {
               <h1
                 className="text-5xl font-[400] my-8 hidden md:block"
                 style={{ fontFamily: 'adieuregular' }}
-                data-aos="fade-right"
+                data-aos="fade-down"
                 data-aos-duration="1500"
               >
                 What is <span className="gradientText">Inventional</span>
@@ -102,7 +102,7 @@ const Banner = () => {
               <h1
                 className="text-4xl font-[600] px-1 block mt-6 md:hidden order-first"
                 style={{ fontFamily: 'adieuregular' }}
-                data-aos="fade-right"
+                data-aos="fade-down"
                 data-aos-duration="1500"
               >
                 <span className="gradientText">Inventional</span>
@@ -115,7 +115,7 @@ const Banner = () => {
                   letterSpacing: '-3%',
                 }}
                 className="font-semibold text-xl hidden md:block"
-                data-aos="fade-right"
+                data-aos="fade-down"
                 data-aos-duration="1500"
               >
                 Expand your digital presence AI that mimics <br /> your unique
@@ -134,7 +134,7 @@ const Banner = () => {
                   marginTop: '16rem',
                 }}
                 className="font-semibold text-xl block md:hidden"
-                data-aos="fade-right"
+                data-aos="fade-down"
                 data-aos-duration="1500"
               >
                 Expand your digital presence <br /> AI that mimics your unique
@@ -144,14 +144,14 @@ const Banner = () => {
               {/* Banner input  */}
               <div
                 className="block md:hidden"
-                data-aos="fade-left"
+                data-aos="fade-up"
                 data-aos-duration="1500"
               >
                 <MobileInputBox />
               </div>
               <div
                 className="hidden md:block mt-28"
-                data-aos="fade-left"
+                data-aos="fade-up"
                 data-aos-duration="1500"
               >
                 <form className="relative" onSubmit={handleSubmit}>
