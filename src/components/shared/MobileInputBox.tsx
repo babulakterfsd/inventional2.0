@@ -101,7 +101,7 @@ const MobileInputBox = () => {
           </form>
           {showResult ? (
             <div className="flex justify-center items-center">
-              <div className="bg-[#0a071d] rounded-full px-3 cursor-auto mx-auto py-1 absolute mt-28 mb-4">
+              <div className="bg-[#0a071d] rounded-full px-1 cursor-auto mx-auto py-1 absolute mt-4">
                 {successMessage ? (
                   <div className="flex gap-x-1 items-center justify-center">
                     <svg
