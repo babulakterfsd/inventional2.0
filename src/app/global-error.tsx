@@ -15,7 +15,9 @@ export default function GlobalError({
         <div className="bg-[#1c2647] p-4 rounded-xl">
           <h2>Sorry User, Something went wrong !</h2>
           <Link href="/">
-            <button className="gradientBackground p-2">Go Back</button>
+            <button className="gradientBackground p-2 mt-4 rounded-lg block">
+              Go Back
+            </button>
           </Link>
         </div>
       </body>
