@@ -127,7 +127,7 @@ const Footer = () => {
                 </form>
                 {showResult ? (
                   <div className="flex justify-center items-center">
-                    <div className="bg-[#0a071d] rounded-full md:px-1.5 cursor-auto mx-auto md:py-1 absolute md:mt-12">
+                    <div className="bg-[#0a071d] rounded-full md:px-1 cursor-auto mx-auto md:py-1 absolute md:mt-24 md:ml-12 z-50">
                       {successMessage ? (
                         <div className="flex gap-x-1 items-center justify-center">
                           <svg
