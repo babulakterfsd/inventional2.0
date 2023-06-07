@@ -8,8 +8,8 @@ const Possibilities = () => {
         <div className="col-span-12 px-0.5 md:px-0 md:col-start-3 md:col-span-8">
           <div
             className="content gradientBackground rounded-xl py-8 px-2 md:py-8 md:px-10 relative md:top-12 text-center md:text-left"
-            data-aos="fade-up"
-            data-aos-duration="1500"
+            data-aos="fade-down"
+            data-aos-duration="2000"
           >
             <Image
               src={RingPhoto}
