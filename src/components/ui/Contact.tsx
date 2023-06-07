@@ -12,7 +12,7 @@ const Contact = () => {
         <div
           className="bg-[#171b29] rounded-xl md:p-4 -mt-14 md:w-10/12"
           data-aos="fade-down"
-          data-aos-duration="1500"
+          data-aos-duration="2000"
         >
           <div className="gradientBackground px-1 md:px-6 py-6 rounded-xl flex flex-col md:flex-row justify-evenly items-center">
             <h2
@@ -61,7 +61,7 @@ const Contact = () => {
               lineHeight: '1.2',
             }}
             data-aos="fade-up"
-            data-aos-duration="1500"
+            data-aos-duration="2000"
           >
             Let's Build something with <br />
             <span className="gradientText">INVENTIONAL OPEN AI</span>

@@ -17,7 +17,7 @@ const Features = () => {
           className="text-3xl md:text-5xl font-[400] mb-4 md:mb-20 text-center"
           style={{ fontFamily: 'adieuregular' }}
           data-aos="fade-down"
-          data-aos-duration="1500"
+          data-aos-duration="2000"
         >
           Features of our <br className="md:hidden" />{' '}
           <span className="gradientText">AI chatbot</span>
@@ -28,7 +28,7 @@ const Features = () => {
             <div
               className="flex flex-col justify-center items-center border border-[rgba(255, 255, 255, 0.6)] rounded-xl p-6 md:p-0 md:border-0"
               data-aos="fade-up"
-              data-aos-duration="1500"
+              data-aos-duration="2000"
             >
               <div className="imgcontainerbox gradientBackground p-3  rounded-2xl">
                 <Image src={Img24} alt="feature1" height={40} width={40} />
@@ -44,7 +44,7 @@ const Features = () => {
             <div
               className="flex flex-col justify-center items-center border border-[rgba(255, 255, 255, 0.6)] rounded-xl p-6 md:p-0 md:border-0"
               data-aos="fade-up"
-              data-aos-duration="1500"
+              data-aos-duration="2000"
             >
               <div className="imgcontainerbox gradientBackground p-3 rounded-2xl">
                 <Image src={giftbox} alt="feature2" height={40} width={40} />
@@ -60,7 +60,7 @@ const Features = () => {
             <div
               className="flex flex-col justify-center items-center border border-[rgba(255, 255, 255, 0.6)] rounded-xl p-6 md:p-0 md:border-0"
               data-aos="fade-up"
-              data-aos-duration="1500"
+              data-aos-duration="2000"
             >
               <div className="imgcontainerbox gradientBackground py-4 px-3 rounded-2xl">
                 <Image src={calendar} alt="feature1" height={45} width={40} />
@@ -76,7 +76,7 @@ const Features = () => {
             <div
               className="flex flex-col justify-center items-center border border-[rgba(255, 255, 255, 0.6)] rounded-xl p-6 md:p-0 md:border-0"
               data-aos="fade-up"
-              data-aos-duration="1500"
+              data-aos-duration="2000"
             >
               <div className="imgcontainerbox gradientBackground p-3 rounded-2xl">
                 <Image src={prize} alt="feature1" height={40} width={40} />
@@ -92,7 +92,7 @@ const Features = () => {
             <div
               className="flex flex-col justify-center items-center border border-[rgba(255, 255, 255, 0.6)] rounded-xl p-6 md:p-0 md:border-0"
               data-aos="fade-up"
-              data-aos-duration="1500"
+              data-aos-duration="2000"
             >
               <div className="imgcontainerbox gradientBackground p-3 rounded-2xl">
                 <Image src={peoplegrp} alt="feature1" height={40} width={40} />
@@ -108,7 +108,7 @@ const Features = () => {
             <div
               className="flex flex-col justify-center items-center border border-[rgba(255, 255, 255, 0.6)] rounded-xl p-6 md:p-0 md:border-0"
               data-aos="fade-up"
-              data-aos-duration="1500"
+              data-aos-duration="2000"
             >
               <div className="imgcontainerbox gradientBackground p-3 rounded-2xl">
                 <Image src={voicepic} alt="feature1" height={40} width={40} />
@@ -124,7 +124,7 @@ const Features = () => {
             <div
               className="flex flex-col justify-center items-center border border-[rgba(255, 255, 255, 0.6)] rounded-xl p-6 md:p-0 md:border-0"
               data-aos="fade-up"
-              data-aos-duration="1500"
+              data-aos-duration="2000"
             >
               <div className="imgcontainerbox gradientBackground p-3 rounded-2xl">
                 <Image src={message} alt="feature1" height={40} width={40} />
@@ -140,7 +140,7 @@ const Features = () => {
             <div
               className="flex flex-col justify-center items-center border border-[rgba(255, 255, 255, 0.6)] rounded-xl p-6 md:p-0 md:border-0"
               data-aos="fade-up"
-              data-aos-duration="1500"
+              data-aos-duration="2000"
             >
               <div className="imgcontainerbox gradientBackground p-3 rounded-2xl">
                 <Image src={wtsapp} alt="feature1" height={40} width={40} />
@@ -156,7 +156,7 @@ const Features = () => {
             <div
               className="flex flex-col justify-center items-center border border-[rgba(255, 255, 255, 0.6)] rounded-xl p-6 md:p-0 md:border-0"
               data-aos="fade-up"
-              data-aos-duration="1500"
+              data-aos-duration="2000"
             >
               <div className="imgcontainerbox gradientBackground p-3 rounded-2xl">
                 <Image src={gift} alt="feature1" height={40} width={40} />

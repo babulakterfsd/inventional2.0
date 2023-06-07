@@ -16,7 +16,7 @@ const StepToFuture = () => {
           <div
             className="bg-[#0e1622] w-full md:w-96 p-4 md:p-8 rounded-xl relative flex md:block justify-center items-center flex-col"
             data-aos="fade-up"
-            data-aos-duration="1500"
+            data-aos-duration="2000"
           >
             <Image src={fatlineImg} alt="fatline" height={7} width={77} />
             <Image
@@ -51,7 +51,7 @@ const StepToFuture = () => {
           <div
             className="bg-[#0e1622] w-full md:w-96 p-4 md:p-8 rounded-xl relative flex md:block justify-center items-center flex-col mb-6 md:mb-0"
             data-aos="fade-up"
-            data-aos-duration="1500"
+            data-aos-duration="2000"
           >
             <Image src={fatlineImg} alt="fatline" height={7} width={77} />
             <Image
@@ -87,7 +87,7 @@ const StepToFuture = () => {
         <div
           className="flex justify-center items-center md:my-28 w-full md:w-[600px] mx-auto order-first relative"
           data-aos="fade-down"
-          data-aos-duration="1500"
+          data-aos-duration="2000"
         >
           <Image
             src={chera}
@@ -109,7 +109,7 @@ const StepToFuture = () => {
           <div
             className="bg-[#0e1622] w-full md:w-96 p-4 md:p-8 rounded-xl relative flex md:block justify-center items-center flex-col"
             data-aos="fade-up"
-            data-aos-duration="1500"
+            data-aos-duration="2000"
           >
             <Image src={fatlineImg} alt="fatline" height={7} width={77} />
             <Image
@@ -144,7 +144,7 @@ const StepToFuture = () => {
           <div
             className="bg-[#0e1622] w-full md:w-96 p-4 md:p-8 rounded-xl relative flex md:block justify-center items-center flex-col"
             data-aos="fade-up"
-            data-aos-duration="1500"
+            data-aos-duration="2000"
           >
             <Image src={fatlineImg} alt="fatline" height={7} width={77} />
             <Image
